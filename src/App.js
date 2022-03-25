@@ -10,7 +10,6 @@ function App() {
 
   return (
     <BrowserRouter>
-      {/* <div className="main-container"> */}
         <Sidebar />
         <Switch>
           <Route path="/" exact>
@@ -29,7 +28,6 @@ function App() {
             <Redirect to='/notfound'></Redirect>
           </Route>
         </Switch>
-      {/* </div> */}
     </BrowserRouter>
   );
 }
